@@ -1,0 +1,8 @@
+<div class="col-md-1 d-flex justify-content-end">
+          <div class="targetDayWrapper">
+            <button (click)="SetTargetDay('Tuesday')" type="button" class="btn btn-outline-warning btn-lg btn-block targetDayButton" [ngClass]="{'active': targetDayChosen === 'Tuesday'}" style="font-weight: bold;">UTORAK</button>
+          </div>
+          <div class="targetDayWrapper ml-2">
+            <button (click)="SetTargetDay('Friday')" type="button" class="btn btn-outline-warning btn-lg btn-block targetDayButton" [ngClass]="{'active': targetDayChosen=== 'Friday'}" style="font-weight: bold;">PETAK</button>
+          </div>
+        </div>

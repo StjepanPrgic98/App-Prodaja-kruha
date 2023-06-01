@@ -1,0 +1,20 @@
+<div class="row" style="margin-top: 20px;">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <div class="form-group text-center">
+          <label for="exampleInputEmail1" class="customLabel">Dan</label>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="targetDayWrapper">
+                <button (click)="SetTargetDay('Tuesday')" type="button" class="btn btn-outline-warning btn-lg btn-block targetDayButton" [ngClass]="{'active': targetDayChosen === 'Tuesday'}" style="width: 120px; font-weight: bold;">UTORAK</button>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="targetDayWrapper">
+                <button (click)="SetTargetDay('Friday')" type="button" class="btn btn-outline-warning btn-lg btn-block targetDayButton" [ngClass]="{'active': targetDayChosen === 'Friday'}" style="width: 120px; font-weight: bold;">PETAK</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
